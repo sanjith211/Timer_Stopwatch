@@ -1,0 +1,34 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button button{
+    font-size: 50px;
+}
+
+.button button:hover{
+   font-size: 150%;
+   cursor: pointer;
+}
+
+.start{
+    background-color: green;
+}
+
+.stop{
+    background-color: red;
+}
+
+.reset{
+    background-color: yellow;
+}
